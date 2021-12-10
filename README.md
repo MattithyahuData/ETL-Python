@@ -1,15 +1,20 @@
 # ETL-Python: Project Overview 
-* End to end project reasearching the effects certain attributes have on the value of a car
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
+* Load Data into SQL Server, mySQL, and PostgreSQL using Python 3. 
 
-[View Deployed Model](https://carsalepricecalc.herokuapp.com/)
+[SQL Server Load](Code/ETL_SQLServer.ipynb)
+[MySQL Load](Code/ETL_MySQL.ipynb)
+[PostgreSQL Load](Code/ETL_PostgreSQL.ipynb)
 
 ## Resources Used
-**Python 3.8.12, SSIS** 
+**Python 3.8.12, SQL Server, MySQL, PostgreSQL** 
 
-[**Anaconda Packages:**](requirements.txt) *pip install listed* --  pandas, numpy, scikit-learn
-pip install lxml
+[**Anaconda Packages:**](requirements.txt) **pip install**;
+* SQL Server
+    * **pandas, pyodbc**
+* MySQL
+    * **pandas, mysql.connector**
+* PostgreSQL
+    * **pandas, psycopg2**  
 
 Kaggle Data source links: [results](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data?select=results.csv) [fifa_rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now) [fixtures](https://fixturedownload.com/feed/json/fifa-world-cup-2018)
 
