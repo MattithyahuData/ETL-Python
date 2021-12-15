@@ -7,7 +7,7 @@
 ## Resources Used
 **Python 3.8.12  - SQL Server  - MySQL - PostgreSQL** 
 
-[**Anaconda Packages:**](requirements.txt) **'pip install' :**
+[**Anaconda Packages:**](requirements.txt)
 * SQL Server
     * **pandas, pyodbc**
 * MySQL
@@ -16,26 +16,11 @@
     * **pandas, psycopg2**  
 
 **Data sources:**
-* [results](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data?select=results.csv) 
-* [fifa_rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now) 
-* [fixtures](https://fixturedownload.com/feed/json/fifa-world-cup-2018)
+* Made up dataset for the purpose of this tutorial 
+* [data.txt](Data/data.txt) 
 
 
-## Data Collection
-Download Sources: Kaggle | fixturedownload
-* 
 
-
-## Data Cleaning
-After I had sraped and downloaded all the data I needed, I needed to clean it up so that it was usable for the model and analysis. I made the following changes and created the following variables:
-
-*	Parsed numeric data out of salary 
-*	Made columns for employer provided salary and hourly wages 
-*	Removed rows without salary 
-*	Parsed rating out of company text 
-*	Made a new column for company state 
-*	Added a column for if the job was at the company’s headquarters 
-*	Transformed founded date into age of company 
 
 
 ## Exploratory data analysis 
