@@ -21,5 +21,5 @@
 
 
 ## Evaluation 
-Idea to Warehouse dataframes from python in SQL instances
+Idea to Warehouse data from python in SQL instances
 
